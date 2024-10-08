@@ -30,9 +30,9 @@
             {!! $buttons !!}
 
             @stack('header_button_end')
-
-            @stack('header_suggestion_start')
             
+            @stack('header_suggestion_start')
+
             <x-suggestions />
 
             @stack('header_suggestion_end')
